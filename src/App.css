@@ -1,0 +1,118 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+}
+
+form {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-data {
+  margin: 5px;
+  height: 30px;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid #dedede;
+  width: 200px;
+}
+
+.password-box {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  padding: 8px;
+  height: 30px;
+}
+
+.password {
+  width: 90px;
+  padding: 5px;
+  margin: 0 3px;
+}
+
+.confirm-password {
+  width: 90px;
+  font-size: 8px;
+  padding: 5px;
+  margin: 0 3px;
+}
+
+p {
+  color: aquamarine;
+}
+
+label {
+  color: #dedede;
+}
+
+.check-box {
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+.check-box-input {
+  margin-right: 10px;
+}
+
+button {
+  margin: 10px;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 21vw;
+}
+
+@media (min-width: 769px) {
+  .form {
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user-data {
+    margin: 5px;
+    height: 30px;
+    padding: 5px;
+    width: 400px;
+  }
+
+  .password-box {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+  }
+
+  .password {
+    width: 200px;
+    margin: 0 15px;
+  }
+
+  .confirm-password {
+    width: 200px;
+    font-size: 14px;
+    margin: 0 15px;
+  }
+
+  .check-box {
+    width: 400px;
+  }
+
+  .check-box-input {
+    margin-right: 50px;
+  }
+
+  button {
+    width: 400px;
+  }
+}
