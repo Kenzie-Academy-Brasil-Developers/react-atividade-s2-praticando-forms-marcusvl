@@ -33,20 +33,23 @@ form {
 }
 
 .password {
-  width: 90px;
+  width: 150px;
+  height: 15px;
   padding: 5px;
-  margin: 0 3px;
+  margin: 3px 0;
 }
 
 .confirm-password {
-  width: 90px;
+  width: 150px;
+  height: 15px;
   font-size: 8px;
   padding: 5px;
-  margin: 0 3px;
+  margin: 3px 0;
 }
 
 p {
   color: aquamarine;
+  text-align: center;
 }
 
 label {

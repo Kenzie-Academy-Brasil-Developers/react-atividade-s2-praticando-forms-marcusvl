@@ -55,22 +55,20 @@ function App() {
           {...register("confirmEmail")}
         />
         {errors.confirmEmail?.message && <p>{errors.confirmEmail?.message}</p>}
-        <div className="password-box">
-          <input
-            className="password"
-            placeholder="Senha*"
-            {...register("password")}
-          />
-          {errors.password?.message && <p>{errors.password?.message}</p>}
-          <input
-            className="confirm-password"
-            placeholder="Confirme sua senha*"
-            {...register("confirmPassword")}
-          />
-          {errors.confirmPassword?.message && (
-            <p>{errors.confirmPassword?.message}</p>
-          )}
-        </div>
+        <input
+          className="password"
+          placeholder="Senha*"
+          {...register("password")}
+        />
+        {errors.password?.message && <p>{errors.password?.message}</p>}
+        <input
+          className="confirm-password"
+          placeholder="Confirme sua senha*"
+          {...register("confirmPassword")}
+        />
+        {errors.confirmPassword?.message && (
+          <p>{errors.confirmPassword?.message}</p>
+        )}
         <div className="check-box">
           <input
             className="check-box-input"
