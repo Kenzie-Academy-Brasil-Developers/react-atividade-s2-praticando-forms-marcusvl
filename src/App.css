@@ -98,13 +98,13 @@ button {
 
   .password {
     width: 200px;
-    margin: 0 15px;
+    margin: 5px 0;
   }
 
   .confirm-password {
     width: 200px;
     font-size: 14px;
-    margin: 0 15px;
+    margin: 5px 0;
   }
 
   .check-box {
